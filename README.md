@@ -1,6 +1,6 @@
 GPSPolygon
 =========
-The **GPSPolygon** consists in a service library able to check if a point (latitude and longitude) is inside a polygon.
+The **GPSPolygon** tool consists in a service library able to check if a point (latitude and longitude) is inside a polygon.
 The library implements the [algorithm](http://www.eecs.umich.edu/courses/eecs380/HANDOUTS/PROJ2/InsidePoly.html) forwarded by Philippe Reverdy.
 It computes the sum of the angles made between the test point and each pair of points making up the polygon.
 If this sum is 2pi then the point is an interior point, if 0 then the point is an exterior point.
