@@ -38,6 +38,8 @@ The `PolygonService` class is the entry point of the library.
 ``` php
 <?php
 
+    use GPS\PolygonService;
+
     // Polygon area - Italy - Messina  viale Boccetta - Corso Cavour - Via Consolato del Mare - Via Garibaldi
 
     $polygon = array();
