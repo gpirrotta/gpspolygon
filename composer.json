@@ -1,5 +1,8 @@
 {
     "name": "gpirrotta/gpspolygon",
+    "description": "GPSPolygon tool",
+    "keyworkds": ["coordinates", "polygon", "inside", "geo"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Giovanni Pirrotta",
