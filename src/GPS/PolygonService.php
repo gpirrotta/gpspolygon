@@ -10,10 +10,16 @@ class PolygonService {
         $latArray = array();
         $lonArray = array();
 
-        foreach($polygon as $coordinate) {
-            if ($this->isAValidGPSPoint($coordinate[0], $coordinate[1])) {
-                $latArray[] = $coordinate[0];
-                $lonArray[] = $coordinate[1];
+        if (! $this->isAValidGPSPoint($latitude, $longitude)) {
+            return false;
+        }
+
+        foreach($polygon as $coordinates) {
+            if ($this->isAValidGPSPoint($coordinates[0], $coordinates[1])) {
+                $latArray[] = $coordinates[0];
+                $lonArray[] = $coordinates[1];
+            } else {
+                return false;
             }
         }
 
