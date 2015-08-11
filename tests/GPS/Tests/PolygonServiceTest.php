@@ -4,9 +4,6 @@ namespace GPS\Tests;
 
 use GPS\PolygonService;
 
-/**
- * @author Giovanni Pirrotta <giovanni.pirrotta@gmail.com>
- */
 class PolygonServiceTest extends \PHPUnit_Framework_TestCase {
 
     public function test_points_are_valid_GPS_coordinates()

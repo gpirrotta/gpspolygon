@@ -2,9 +2,7 @@
 
 namespace GPS;
 
-
 class PolygonService {
-
 
     public function isPointInsideThePolygon($latitude, $longitude, array $polygon)
     {
